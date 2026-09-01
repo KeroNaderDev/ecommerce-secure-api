@@ -1,45 +1,40 @@
-# ecommerce-secure-api-demo
+# 🛒 E-Commerce Secure API — Demo
 
-🛒 E-Commerce Secure API — Demo | Secure shopping API
+Secure shopping API with auth, cart, and order flow
 
-> **Demo Showcase — Synthetic Data Only** — No personal data used.
+> **Full Stack Track — Demo Showcase** | **Real Problem, Synthetic Data**
 
 ## Overview
-Demo project that solves a real problem in **Full Stack** track. Built as a portfolio showcase with synthetic demo data.
+**Problem:** E-commerce APIs often miss auth and cart security
+
+**Solution:** Secure shopping API with auth, cart, and order flow This demo proves the engineering approach with synthetic data.
 
 ## Architecture
 ```
-Frontend (React) → Backend (Node.js/Express) → Database (MySQL/MongoDB) → Auth (JWT/RBAC)
+Frontend → Secure API (JWT) → DB → Payments Mock
 ```
 
 ## Tech Stack
-- **Track:** Full Stack
-- See `package.json` / `requirements.txt` for full list
+- Node.js, Express, JWT, RBAC
 
 ## Features
-- Solves real problem with demo data
-- Secure by design (validation, auth, RBAC where applicable)
-- Production-ready structure
+- Secure cart\n- Order flow\n- RBAC
 
 ## Security
-- Input validation
-- Authentication & Authorization (JWT/RBAC)
-- API security best practices
-- No real secrets — demo only
+- Validation, JWT/RBAC, Rate limiting, No real secrets
 
 ## Screenshots
-![Demo Screenshot](./screenshots/demo.png)
-*Placeholder — add real screenshot*
+![Demo](./screenshots/demo.png)
 
 ## Demo
-Demo data: `demo-data.json` (synthetic)
-Live Demo: `https://kero.10001mb.com/demo/ecommerce-secure-api-demo` (placeholder)
+- **Demo Data:** `demo-data.json`
+- **Live:** `https://kero.10001mb.com/demo/ecommerce-secure-api-demo` *(placeholder)*
 
 ## Installation
 ```bash
 git clone https://github.com/KeroNaderDev/ecommerce-secure-api-demo.git
 cd ecommerce-secure-api-demo
-npm install # or pip install -r requirements.txt
+npm install
 cp .env.example .env
 npm run dev
 ```
@@ -47,13 +42,12 @@ npm run dev
 ## Usage
 ```bash
 npm run dev
-# Open http://localhost:3000
 ```
 
 ## What I Learned
-- Building Full Stack systems end-to-end
-- Securing APIs and infrastructure
-- Demo-driven portfolio design
+- Full Stack end-to-end design
+- Demo vs real data separation
+- Professional portfolio structure
 
 ---
-*Part of **Kero Nader** — Cybersecurity | Full Stack | DevOps | IoT — Track: Full Stack*
+*Track: Full Stack • Portfolio: [KeroNaderDev](https://github.com/KeroNaderDev)*
